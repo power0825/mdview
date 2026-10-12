@@ -8,7 +8,7 @@ MDView 是一款轻量的 Markdown 桌面阅读器，支持文件和文件夹浏
 
 安装程序会创建开始菜单和桌面快捷方式，并将 MDView 注册为 `.md` 和 `.markdown` 文件的可选打开方式。Windows 默认应用仍由用户决定；如需默认使用 MDView，请在“设置 → 应用 → 默认应用”中选择 MDView。
 
-当前 Windows 安装包尚未进行代码签名。首次运行时，Windows SmartScreen 可能显示未知发布者提示；请确认安装包来自本项目的 GitHub Releases 页面后再继续。
+当前 Windows 安装包尚未进行代码签名。首次运行时，Windows SmartScreen 可能显示未知发布者提示；请确认安装包来自本项目的 GitHub 仓库后再继续。
 
 ## 功能
 
