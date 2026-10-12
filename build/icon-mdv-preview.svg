@@ -1,0 +1,37 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="128" y1="96" x2="896" y2="928" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#DDF4FF"/>
+      <stop offset="1" stop-color="#8ED8FF"/>
+    </linearGradient>
+    <linearGradient id="letters" x1="226" y1="356" x2="812" y2="690" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0E5F91"/>
+      <stop offset="1" stop-color="#083D66"/>
+    </linearGradient>
+    <filter id="softShadow" x="94" y="94" width="836" height="852" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="22"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.02 0 0 0 0 0.18 0 0 0 0 0.32 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="transparent"/>
+  <g filter="url(#softShadow)">
+    <rect x="128" y="112" width="768" height="768" rx="184" fill="url(#bg)"/>
+    <rect x="154" y="138" width="716" height="716" rx="164" stroke="white" stroke-opacity="0.55" stroke-width="52"/>
+  </g>
+  <text
+    x="512"
+    y="636"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="340"
+    font-weight="900"
+    letter-spacing="-18"
+    fill="url(#letters)"
+  >MD</text>
+</svg>

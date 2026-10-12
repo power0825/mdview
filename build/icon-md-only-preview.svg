@@ -1,0 +1,32 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="150" y1="120" x2="874" y2="904" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E4F7FF"/>
+      <stop offset="1" stop-color="#8AD7FF"/>
+    </linearGradient>
+    <linearGradient id="text" x1="250" y1="360" x2="770" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#126A9F"/>
+      <stop offset="1" stop-color="#083D66"/>
+    </linearGradient>
+    <filter id="shadow" x="84" y="84" width="856" height="872" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#063A5A" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="transparent"/>
+  <g filter="url(#shadow)">
+    <rect x="128" y="112" width="768" height="768" rx="184" fill="url(#bg)"/>
+    <rect x="154" y="138" width="716" height="716" rx="164" stroke="white" stroke-opacity="0.55" stroke-width="52"/>
+  </g>
+
+  <text
+    x="512"
+    y="620"
+    text-anchor="middle"
+    font-family="Segoe UI, Arial, Helvetica, sans-serif"
+    font-size="350"
+    font-weight="800"
+    letter-spacing="-16"
+    fill="url(#text)"
+  >md</text>
+</svg>
